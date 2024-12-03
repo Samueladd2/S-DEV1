@@ -1,0 +1,172 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+}
+header{
+    box-shadow: 0 4px 8px 0;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 15px;
+    background: linear-gradient(to right, red, blue ,yellow);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+ul a{
+    padding-left: 5px;
+}
+ul a:hover{
+    color: green;
+    transition: 0.5s;
+}
+logo{
+    font-size: 30px;
+    padding-left:25px;
+    padding-top:8px;
+}
+.my_profile{
+    margin-top: 90px;
+    height: 460px;
+    border: solid
+    width: 600px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.other{
+    background-color: hsl(176.25deg 57.14% 94.51%);
+    border: solid;
+
+}
+.my_pic{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 1.5rem;
+    background-color: none;
+    
+}
+.divide{
+    width:610px ;
+    border: solid
+    height: 460px;
+    border-radius: 5px;
+}
+.explanation h1{
+    text-align: center;
+    gap: 0.1px;
+}
+button{
+  
+   margin-top: 300px;
+   color:gold;
+   background-color: gre;
+   box-shadow: 0 4px 8px 4px green;
+   border: none;
+   border-radius: 5px;
+
+}
+
+button:hover{
+    color: grey;
+    font-size: 15px;
+    border: none;
+}
+
+
+
+@media (max-width: 414px){
+    header{
+        height: 40px;
+        width: 100%;
+    }
+    logo{
+        font-size: 12px;
+    }
+    ul a{
+        font-size: 12px;
+    }
+    .explanation h1,p{
+        font-size: 20px;
+        max-width: 340px;
+       
+    }
+    .explanation h1  {
+        margin-top: -130px;
+    }
+    .explanation p{
+        margin-top: px;
+    }
+.other{
+    display: hidden;
+    visibility: hidden;
+}
+.p{
+    visibility: hidden;
+}
+.sd{
+    width: 175px;
+    height: 20px;
+    border: solid;
+    margin-top: 5px;
+}
+.a{
+    font-size: 9px;
+}
+}
+
+
+@media (max-width: 280px){
+    body{
+        max-width: 280px;
+        max-height: 500px;
+    }
+    header{
+        height: 25px;
+        width: 100%;
+    }
+    logo{
+        font-size: 7px;
+    }
+    ul a{
+        font-size: 7px;
+        margin-top: -6px;
+    }
+    .explanation h1,p{
+        font-size: 20px;
+        max-width: 340px;
+       
+    }
+    .explanation h1  {
+        margin-top: -130px;
+    }
+    .explanation p{
+        margin-top: px;
+    }
+.other{
+    display: hidden;
+    visibility: hidden;
+}
+.p{
+    visibility: hidden;
+}
+.sd{
+    width: 175px;
+    height: 20px;
+    border: solid;
+    margin-top: 5px;
+}
+.a{
+    font-size: 9px;
+}
+}
